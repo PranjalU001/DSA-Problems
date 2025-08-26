@@ -25,23 +25,17 @@ public:
         return true;
     }
 };
+//Dry Run:-
 //arr = [1,2,2,1,1,3]
 //Step 1: sort the array
-
-arr = [1,1,1,2,2,3]
-So:
-
-counts = [3, 2, 1]
-Step 3: sort counts
-
-counts = [1, 2, 3]
-Step 4: check duplicates
-
-counts[1] != counts[0] → 2 != 1 ✅
-
-counts[2] != counts[1] → 3 != 2 ✅
-
-No duplicates → return true
-
-✅ Output:
-true
+// arr = [1,1,1,2,2,3]
+// So:
+// counts = [3, 2, 1]
+// Step 3: sort counts
+// counts = [1, 2, 3]
+// Step 4: check duplicates
+// counts[1] != counts[0] → 2 != 1 ✅
+// counts[2] != counts[1] → 3 != 2 ✅
+// No duplicates → return true
+// ✅ Output:
+// true
