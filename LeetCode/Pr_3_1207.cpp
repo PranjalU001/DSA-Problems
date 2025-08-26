@@ -29,3 +29,6 @@ public:
 //Step 1: sort the array
 
 arr = [1,1,1,2,2,3]
+So:
+
+counts = [3, 2, 1]
