@@ -32,3 +32,6 @@ arr = [1,1,1,2,2,3]
 So:
 
 counts = [3, 2, 1]
+Step 3: sort counts
+
+counts = [1, 2, 3]
