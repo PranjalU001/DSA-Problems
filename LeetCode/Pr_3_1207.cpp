@@ -26,3 +26,6 @@ public:
     }
 };
 //arr = [1,2,2,1,1,3]
+//Step 1: sort the array
+
+arr = [1,1,1,2,2,3]
