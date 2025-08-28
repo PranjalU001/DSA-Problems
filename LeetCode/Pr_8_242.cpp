@@ -29,3 +29,21 @@
  
 
 // Follow up: What if the inputs contain Unicode characters? How would you adapt your solution to such a case?
+#include <vector>
+#include <algorithm>
+#include<string>
+using namespace std;
+class Solution {
+public:
+   bool isAnagram(string s, string t) {
+    if (s.length() != t.length()) return false;
+
+    sort(s.begin(), s.end());
+    sort(t.begin(), t.end());
+
+    if(s == t){
+        return true;
+    }
+    return false;
+}
+};
