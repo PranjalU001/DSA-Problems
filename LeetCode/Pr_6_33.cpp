@@ -35,6 +35,9 @@
 // All values of nums are unique.
 // nums is an ascending array that is possibly rotated.
 // -104 <= target <= 104
+#include <vector>
+#include <algorithm>
+using namespace std;
 class Solution {
 public:
     int search(vector<int>& nums, int target) {
